@@ -1,0 +1,72 @@
+
+.JoinCardsContainer{
+    position: relative;
+    /* top: 50%; */
+    left: 50%;
+    transform: translate(-50%);
+    max-width: 1050px;
+}
+
+.JoinCardStyle1{
+    background: rgb(255,255,255);
+    background: linear-gradient(167deg, rgb(152, 171, 253) 0%, rgb(164, 190, 254) 7%, rgb(135, 145, 254) 28%, rgb(98, 126, 253) 55%, rgb(79, 120, 254) 85%);
+    border-radius: 30px 30px 30px 30px;
+    padding: 25px;
+    max-height: 350px;
+    display: flex;
+    align-items: center;
+}
+.JoinCard-image{
+    border-radius: 10px;
+    /* transform: perspective(900px) rotateY(25deg) rotateX(10deg); */
+    margin-left: 20px;
+    /* box-shadow: #fff 0px 3px 9px 0px; */
+    background: #1f1d1d1d;
+    backdrop-filter: blur(10px);
+    width: 380px;
+    transition: 0.3s;
+}
+
+/* .JoinCard-image:hover {
+    border-radius: 13px;
+    transform-origin: left; 设置旋转原点为左上角
+    transform: rotate(-10deg); 将图片逆时针旋转10度
+    transform: skewX(0deg) skewY(0deg) scale(1.1);
+    box-shadow: #fff 0px 0px 14px 4px;
+    transition: 0.3s;
+} */
+
+.JoinCardTextContainer1 {
+    padding-left: 165px;
+}
+
+.JoinCardText-title{
+    font-weight: bold;
+    font-size: 25px;
+    color: #fff;
+}
+
+.JoinCardText-content{
+    font-weight: 500;
+    font-size: 15px;
+    color: #ffffff93;
+    font-family: "Noto Sans TC", sans-serif;
+}
+
+.joinBtn{
+    background-color:#4167ee;
+    cursor: pointer;
+    color: #fff;
+    display: flex;
+    align-items:center;
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    width: 250px;
+    justify-content: center;
+    border-radius: 20px;
+}
+.joinBtnA{
+    text-decoration: none;
+}
